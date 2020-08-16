@@ -1,3 +1,33 @@
+input {
+  border: solid;
+  outline: none;
+  font-size: 1.5em;
+  padding-left: 1vh;
+}
+
+.f-1half {
+  font-size: 1.5em;
+}
+.f-1half { font-size: 1.5em; }
+.f-one { font-size: 1em; }
+
+
+.mg-20 { margin: 2vh; }
+.mg-10 { margin: 1vh; }
+.mg-half { margin: 0.5vh; }
+.align-middle {
+  background-color: #446611;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.font-lg {
+  font-size: 3rem;
+}
 .App {
   text-align: center;
 }
